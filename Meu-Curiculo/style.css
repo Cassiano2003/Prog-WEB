@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes ul{
+    list-style: none;
+}
+
+.imagen{
+
+    width: 300px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.corpo{
+    padding: 20px;
+}

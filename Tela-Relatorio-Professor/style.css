@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #d2c8c8;
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #225971;
+    align-items: center;
+}
+.diario{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.diario img{
+    height: 35px;
+}
+
+.imagens{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.imagens img{
+    height: 30px;
+}
+
+.navegacao_lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    background: #225971;
+    margin-top: 10px;
+}
+
+.navegacao_lateral ul {
+    list-style: none;
+    gap: 100px;  /* espaçamento entre itens */
+}
+.navegacao_lateral li {
+    display: flex;
+    align-items: center;
+}
+.navegacao_lateral button {
+    background: #225971;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 8px;   
+    font-size: 14px;    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+.navegacao_lateral button:hover{
+    background: #1b4659;
+    color: rgb(255, 255, 255);
+}
+
+.navegacao_lateral footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.navegacao_lateral footer img{
+    gap: 20px;
+    height: 100px;
+}
+
+.navegacao_meio{
+    display: flex;
+    flex-direction: column;
+    background: #2c5172;
+    padding: 10px;
+}
+
+.meio{
+    display: flex;
+    flex-direction: row;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+.bnt_meio {
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 150px);
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteiner{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;       
+}
+
+.botoes button{
+    border: none;
+    padding: 15px;
+    height: auto;    
+    width: auto;
+    background: #225971;
+    border-radius:#ffffff;
+}
+
+.botoes button:hover{
+    background: #1b4659;
+    color: rgb(255, 255, 255);
+}
+
+.dinamico{
+    display: flex;
+    background: #efefef;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    height: 200px;
+    padding: 10px;
+    flex: 1;
+}
+
+.dinamico h2{
+    background: #868686;
+    height: 50px;
+}
