@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form action="https://httpbin.org/post" target="_blank" method="post">
+            <h1>Cadastro Usuarios</h1><br>
+            <div class="pessoais">
+                <h2>Dados Pessoais</h2>
+                <strong class="texto">Nome completo</strong><br> <input class="campos" type="text" id="nome" name="nome" required>
+                <br>
+                <strong class="texto">E-mail</strong><br> <input class="campos" type="email" id="email" name="email">
+                <br>
+                <strong class="texto">Senha</strong><br> <input class="campos" type="password" id="senha" name="senha">
+                <br>
+                <strong class="texto">Data de nacimento</strong><br> <input class="campos" type="date" id="data" name="data">
+                <br>
+                <div>
+                <strong class="texto">Genero</strong>
+                <br> 
+                <div class="texto">
+                    <input type="radio" name="sexo" value="m"> Masculino
+                    <input type="radio" name="sexo" value="f"> Feminino
+                    <input type="radio" name="sexo" value="o"> Outro 
+                </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="preferencias">
+                <h2>Preferencias</h2>
+                <br>
+                <strong class="texto">Intereces</strong>
+                <br>
+                <div class="texto">
+                    <input type="checkbox" name="area" value="prog"> Programação
+                    <input type="checkbox" name="area" value="des"> Design
+                    <input type="checkbox" name="area" value="game"> Game
+                    <input type="checkbox" name="area" value="musica"> Musica
+                    <input type="checkbox" name="area" value="espor"> Esportes
+                </div>
+                <br>
+                <br>
+                <strong class="texto">Estado</strong><br> 
+                <select name="estado" id="estado" class="campos">
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                    <option value="mato groso do sul">Mato Groso do Sul</option>
+                </select><br>
+                <strong class="texto">Observações</strong><br>
+                <textarea class="campos" name="obs" id="obs" rows="5" cols="40"
+                placeholder="Digite as suas observações" required>
+
+                </textarea><br><br>
+
+            </div>
+            <div class="buttons">
+                <button class="enviar" type="submit">Enviar</button>
+                <button class="limpar" type="reset">Limpar</button>
+            </div>
+        </form>
+    </body>
+</html>
