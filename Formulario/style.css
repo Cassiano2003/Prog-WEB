@@ -9,18 +9,19 @@ body{
 
 form{
     background: rgb(202, 202, 202);
-    width: 60%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    width: min(800px, 90%);
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-width: 10px;
     border-radius: 10px;
     border-style: double;
     border-color: grey;
+    padding-bottom: 20px;
 }
 
 form h1{
-    margin-left: 35%;
-    margin-right: 30%;
+    text-align: center;
+    margin: 16px 0;
 }
 
 .pessoais{
@@ -31,14 +32,18 @@ form h1{
     border-style: double;
     border-radius: 10px;
     border-color: grey;
+    padding: 16px;
 }
 
 .campos{
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 12px;
     width: 90%;
-    background-color: transparent;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 8px;
+    padding: 10px 12px;
 }
 
 .texto{
@@ -54,15 +59,16 @@ form h1{
     border-style: double;
     border-radius: 10px;
     border-color: grey;
+    padding: 16px;
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 10%;
-    gap: 10%;
+    gap: 24px;
 }
 
 .enviar{
@@ -71,6 +77,8 @@ form h1{
     border-radius: 10px;
     background: green;
     border-style: none;
+    color: white;
+    cursor: pointer;
 }
 
 .limpar{
@@ -79,4 +87,32 @@ form h1{
     border-radius: 10px;
     background: red;
     border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar:hover{ filter: brightness(1.05); }
+.limpar:hover{ filter: brightness(1.05); }
+
+.campos:focus{
+    outline: none;
+    border-color: #2a6df4;
+    box-shadow: 0 0 0 3px rgba(42, 109, 244, 0.2);
+}
+
+.grupo-inline .radios{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.checkboxes{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px){
+    .campos{ width: 90%; }
+    .buttons{ flex-direction: column; align-items: flex-start; }
 }

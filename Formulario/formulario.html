@@ -8,61 +8,84 @@
     </head>
     <body>
         <form action="https://httpbin.org/post" target="_blank" method="post">
-            <h1>Cadastro Usuarios</h1><br>
-            <div class="pessoais">
-                <h2>Dados Pessoais</h2>
-                <strong class="texto">Nome completo</strong><br> <input class="campos" type="text" id="nome" name="nome" required>
+            <h1>Cadastro de Usuários</h1>
+            <fieldset class="pessoais">
+                <legend>Dados Pessoais</legend>
+                <label class="texto" for="nome">Nome completo</label>
+                <input class="campos" type="text" id="nome" name="nome" placeholder="Seu nome" required>
                 <br>
-                <strong class="texto">E-mail</strong><br> <input class="campos" type="email" id="email" name="email">
+                <label class="texto" for="email">E-mail</label>
+                <input class="campos" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
                 <br>
-                <strong class="texto">Senha</strong><br> <input class="campos" type="password" id="senha" name="senha">
+                <label class="texto" for="senha">Senha</label>
+                <input class="campos" type="password" id="senha" name="senha" minlength="6" placeholder="Mínimo 6 caracteres">
                 <br>
-                <strong class="texto">Data de nacimento</strong><br> <input class="campos" type="date" id="data" name="data">
+                <label class="texto" for="data">Data de nascimento</label>
+                <input class="campos" type="date" id="data" name="data">
                 <br>
-                <div>
-                <strong class="texto">Genero</strong>
-                <br> 
-                <div class="texto">
-                    <input type="radio" name="sexo" value="m"> Masculino
-                    <input type="radio" name="sexo" value="f"> Feminino
-                    <input type="radio" name="sexo" value="o"> Outro 
+                <fieldset class="grupo-inline">
+                    <legend class="texto">Gênero</legend>
+                    <div class="texto radios">
+                        <input type="radio" id="sexo_m" name="sexo" value="m">
+                        <label for="sexo_m">Masculino</label>
+                        <input type="radio" id="sexo_f" name="sexo" value="f">
+                        <label for="sexo_f">Feminino</label>
+                        <input type="radio" id="sexo_o" name="sexo" value="o">
+                        <label for="sexo_o">Outro</label>
+                    </div>
+                </fieldset>
+            </fieldset>
+            <fieldset class="preferencias">
+                <legend>Preferências</legend>
+                <label class="texto">Interesses</label>
+                <div class="texto checkboxes">
+                    <input type="checkbox" id="int_prog" name="area" value="prog">
+                    <label for="int_prog">Programação</label>
+                    <input type="checkbox" id="int_des" name="area" value="des">
+                    <label for="int_des">Design</label>
+                    <input type="checkbox" id="int_game" name="area" value="game">
+                    <label for="int_game">Game</label>
+                    <input type="checkbox" id="int_mus" name="area" value="musica">
+                    <label for="int_mus">Música</label>
+                    <input type="checkbox" id="int_esp" name="area" value="esportes">
+                    <label for="int_esp">Esportes</label>
                 </div>
-                </div>
-            </div>
-            <br><br>
-            <div class="preferencias">
-                <h2>Preferencias</h2>
                 <br>
-                <strong class="texto">Intereces</strong>
+                <label class="texto" for="estado">Estado</label>
+                <select name="estado" id="estado" class="campos" required>
+                    <option value="select" disabled selected>Selecione o estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
                 <br>
-                <div class="texto">
-                    <input type="checkbox" name="area" value="prog"> Programação
-                    <input type="checkbox" name="area" value="des"> Design
-                    <input type="checkbox" name="area" value="game"> Game
-                    <input type="checkbox" name="area" value="musica"> Musica
-                    <input type="checkbox" name="area" value="espor"> Esportes
-                </div>
-                <br>
-                <br>
-                <strong class="texto">Estado</strong><br> 
-                <select name="estado" id="estado" class="campos">
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                    <option value="mato groso do sul">Mato Groso do Sul</option>
-                </select><br>
-                <strong class="texto">Observações</strong><br>
-                <textarea class="campos" name="obs" id="obs" rows="5" cols="40"
-                placeholder="Digite as suas observações" required>
-
-                </textarea><br><br>
-
-            </div>
+                <label class="texto" for="obs">Observações</label>
+                <textarea class="campos" name="obs" id="obs" rows="5" cols="40" placeholder="Digite as suas observações"></textarea>
+            </fieldset>
             <div class="buttons">
                 <button class="enviar" type="submit">Enviar</button>
                 <button class="limpar" type="reset">Limpar</button>
