@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Confimação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Formulario</h1>
+            <form>
+                <label for="rga">RGA:</label>
+                <br>
+                <span id="mensagenRGA"></span>
+                <input id="rga" type="text" name="rga" placeholder="9999.9999.999-9"
+                pattern="[0-9]{4}.[0-9]{4}.[0-9]{3}-[0-9]{1}" maxlength="15">
+                <br>
+                <label for="nome">Nome:</label>
+                <br>
+                <input id="nome" type="text" name="nome" placeholder="Não encontrado" disabled>
+                <br>
+                <label for="definir_senha">Definir Senha:</label>
+                <br>
+                <input id="definir_senha" type="text" name="definir_senha" maxlength="8">
+                <br>
+                <label for="confirmar_senha">Confirmar Senha:</label>
+                <br>
+                <input id="confirmar_senha" type="text" name="confirmar_senha" maxlength="8">
+
+                <fieldset>
+                    <legend>Tipo de permição</legend>
+                    <div class="texto radios">
+                        <input type="radio" id="estudante" name="tipo" value="Estudante">
+                        <label for="estudante">Estudante</label>
+                        <input type="radio" id="munitor" name="tipo" value="Munitor">
+                        <label for="munitor">Munitor</label>
+                        <input type="radio" id="ouvinte" name="tipo" value="Ouvinte">
+                        <label for="ouvinte">Ouvinte</label>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
