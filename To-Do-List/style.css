@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    padding: 20px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    size: 100px;
+    padding: 15px;
+}
+
+.add button{
+    background: rgb(2, 192, 2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.add button:hover{
+    background: green;
+    color: antiquewhite;
+}
+
+.tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.itens{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background: rgb(194, 194, 1);
+    color: black;
+    gap: 10px;
+}
+
+.button1{
+    background: rgb(192, 2, 2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.button1 :hover{
+    background: red;
+    color: antiquewhite;
+}
+
+.button2{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: rgb(22, 185, 19);
+}
+
+.button2 :hover{
+    background: rgb(4, 213, 0);
+    color: antiquewhite;
+}
+
+.concluido{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background: rgb(22, 185, 19);
+    gap: 10px;
+}
