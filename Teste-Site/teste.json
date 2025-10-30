@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "nome": "SCANIA 124 G4",
+    "descricao": "Plato para linha pesada Scania 124",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "SCANIA",
+    "plato": 1298,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 2, "nome": "SCANIA 310" }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "SCANIA 124 G5",
+    "descricao": "Plato reforçado com maior durabilidade",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "SCANIA",
+    "plato": 1299,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 3, "nome": "SCANIA 124 400" }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "SCANIA 124 G6",
+    "descricao": "Kit completo de embreagem linha Scania",
+    "marca_peca": "LUK",
+    "marca_veiculo": "SCANIA",
+    "plato": 1301,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 2, "nome": "SCANIA 310" },
+      { "id": 3, "nome": "SCANIA 124 400" },
+      { "id": 4, "nome": "SCANIA 124 420" }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "ACTROS 2651",
+    "descricao": "Conjunto de embreagem para Mercedes Actros",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "MERCEDES-BENZ",
+    "plato": 1420,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 5, "nome": "MERCEDES ACTROS 2651" },
+      { "id": 6, "nome": "MERCEDES AXOR 2544" }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "FH 540",
+    "descricao": "Embreagem linha pesada Volvo FH",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "VOLVO",
+    "plato": 1560,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 7, "nome": "VOLVO FH 460" },
+      { "id": 8, "nome": "VOLVO FH 540" }
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "SCANIA 124 G4",
+    "descricao": "Plato para linha pesada Scania 124",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "SCANIA",
+    "plato": 1298,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 2, "nome": "SCANIA 310" }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "SCANIA 124 G5",
+    "descricao": "Plato reforçado com maior durabilidade",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "SCANIA",
+    "plato": 1299,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 3, "nome": "SCANIA 124 400" }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "SCANIA 124 G6",
+    "descricao": "Kit completo de embreagem linha Scania",
+    "marca_peca": "LUK",
+    "marca_veiculo": "SCANIA",
+    "plato": 1301,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 2, "nome": "SCANIA 310" },
+      { "id": 3, "nome": "SCANIA 124 400" },
+      { "id": 4, "nome": "SCANIA 124 420" }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "ACTROS 2651",
+    "descricao": "Conjunto de embreagem para Mercedes Actros",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "MERCEDES-BENZ",
+    "plato": 1420,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 5, "nome": "MERCEDES ACTROS 2651" },
+      { "id": 6, "nome": "MERCEDES AXOR 2544" }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "FH 540",
+    "descricao": "Embreagem linha pesada Volvo FH",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "VOLVO",
+    "plato": 1560,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 7, "nome": "VOLVO FH 460" },
+      { "id": 8, "nome": "VOLVO FH 540" }
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "SCANIA 124 G4",
+    "descricao": "Plato para linha pesada Scania 124",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "SCANIA",
+    "plato": 1298,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 2, "nome": "SCANIA 310" }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "SCANIA 124 G5",
+    "descricao": "Plato reforçado com maior durabilidade",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "SCANIA",
+    "plato": 1299,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 3, "nome": "SCANIA 124 400" }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "SCANIA 124 G6",
+    "descricao": "Kit completo de embreagem linha Scania",
+    "marca_peca": "LUK",
+    "marca_veiculo": "SCANIA",
+    "plato": 1301,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 2, "nome": "SCANIA 310" },
+      { "id": 3, "nome": "SCANIA 124 400" },
+      { "id": 4, "nome": "SCANIA 124 420" }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "ACTROS 2651",
+    "descricao": "Conjunto de embreagem para Mercedes Actros",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "MERCEDES-BENZ",
+    "plato": 1420,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 5, "nome": "MERCEDES ACTROS 2651" },
+      { "id": 6, "nome": "MERCEDES AXOR 2544" }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "FH 540",
+    "descricao": "Embreagem linha pesada Volvo FH",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "VOLVO",
+    "plato": 1560,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 7, "nome": "VOLVO FH 460" },
+      { "id": 8, "nome": "VOLVO FH 540" }
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "SCANIA 124 G4",
+    "descricao": "Plato para linha pesada Scania 124",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "SCANIA",
+    "plato": 1298,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 2, "nome": "SCANIA 310" }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "SCANIA 124 G5",
+    "descricao": "Plato reforçado com maior durabilidade",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "SCANIA",
+    "plato": 1299,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 3, "nome": "SCANIA 124 400" }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "SCANIA 124 G6",
+    "descricao": "Kit completo de embreagem linha Scania",
+    "marca_peca": "LUK",
+    "marca_veiculo": "SCANIA",
+    "plato": 1301,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 2, "nome": "SCANIA 310" },
+      { "id": 3, "nome": "SCANIA 124 400" },
+      { "id": 4, "nome": "SCANIA 124 420" }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "ACTROS 2651",
+    "descricao": "Conjunto de embreagem para Mercedes Actros",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "MERCEDES-BENZ",
+    "plato": 1420,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 5, "nome": "MERCEDES ACTROS 2651" },
+      { "id": 6, "nome": "MERCEDES AXOR 2544" }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "FH 540",
+    "descricao": "Embreagem linha pesada Volvo FH",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "VOLVO",
+    "plato": 1560,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 7, "nome": "VOLVO FH 460" },
+      { "id": 8, "nome": "VOLVO FH 540" }
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "SCANIA 124 G4",
+    "descricao": "Plato para linha pesada Scania 124",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "SCANIA",
+    "plato": 1298,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 2, "nome": "SCANIA 310" }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "SCANIA 124 G5",
+    "descricao": "Plato reforçado com maior durabilidade",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "SCANIA",
+    "plato": 1299,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 3, "nome": "SCANIA 124 400" }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "SCANIA 124 G6",
+    "descricao": "Kit completo de embreagem linha Scania",
+    "marca_peca": "LUK",
+    "marca_veiculo": "SCANIA",
+    "plato": 1301,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 2, "nome": "SCANIA 310" },
+      { "id": 3, "nome": "SCANIA 124 400" },
+      { "id": 4, "nome": "SCANIA 124 420" }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "ACTROS 2651",
+    "descricao": "Conjunto de embreagem para Mercedes Actros",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "MERCEDES-BENZ",
+    "plato": 1420,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 5, "nome": "MERCEDES ACTROS 2651" },
+      { "id": 6, "nome": "MERCEDES AXOR 2544" }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "FH 540",
+    "descricao": "Embreagem linha pesada Volvo FH",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "VOLVO",
+    "plato": 1560,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 7, "nome": "VOLVO FH 460" },
+      { "id": 8, "nome": "VOLVO FH 540" }
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "SCANIA 124 G4",
+    "descricao": "Plato para linha pesada Scania 124",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "SCANIA",
+    "plato": 1298,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 2, "nome": "SCANIA 310" }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "SCANIA 124 G5",
+    "descricao": "Plato reforçado com maior durabilidade",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "SCANIA",
+    "plato": 1299,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 3, "nome": "SCANIA 124 400" }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "SCANIA 124 G6",
+    "descricao": "Kit completo de embreagem linha Scania",
+    "marca_peca": "LUK",
+    "marca_veiculo": "SCANIA",
+    "plato": 1301,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 2, "nome": "SCANIA 310" },
+      { "id": 3, "nome": "SCANIA 124 400" },
+      { "id": 4, "nome": "SCANIA 124 420" }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "ACTROS 2651",
+    "descricao": "Conjunto de embreagem para Mercedes Actros",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "MERCEDES-BENZ",
+    "plato": 1420,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 5, "nome": "MERCEDES ACTROS 2651" },
+      { "id": 6, "nome": "MERCEDES AXOR 2544" }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "FH 540",
+    "descricao": "Embreagem linha pesada Volvo FH",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "VOLVO",
+    "plato": 1560,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 7, "nome": "VOLVO FH 460" },
+      { "id": 8, "nome": "VOLVO FH 540" }
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "SCANIA 124 G4",
+    "descricao": "Plato para linha pesada Scania 124",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "SCANIA",
+    "plato": 1298,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 2, "nome": "SCANIA 310" }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "SCANIA 124 G5",
+    "descricao": "Plato reforçado com maior durabilidade",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "SCANIA",
+    "plato": 1299,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 1, "nome": "SCANIA 470" },
+      { "id": 3, "nome": "SCANIA 124 400" }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "SCANIA 124 G6",
+    "descricao": "Kit completo de embreagem linha Scania",
+    "marca_peca": "LUK",
+    "marca_veiculo": "SCANIA",
+    "plato": 1301,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 2, "nome": "SCANIA 310" },
+      { "id": 3, "nome": "SCANIA 124 400" },
+      { "id": 4, "nome": "SCANIA 124 420" }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "ACTROS 2651",
+    "descricao": "Conjunto de embreagem para Mercedes Actros",
+    "marca_peca": "VALEO",
+    "marca_veiculo": "MERCEDES-BENZ",
+    "plato": 1420,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 5, "nome": "MERCEDES ACTROS 2651" },
+      { "id": 6, "nome": "MERCEDES AXOR 2544" }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "FH 540",
+    "descricao": "Embreagem linha pesada Volvo FH",
+    "marca_peca": "SACHS",
+    "marca_veiculo": "VOLVO",
+    "plato": 1560,
+    "tipo": "PLATÔ",
+    "aplicacoes": [
+      { "id": 7, "nome": "VOLVO FH 460" },
+      { "id": 8, "nome": "VOLVO FH 540" }
+    ]
+  }
+]

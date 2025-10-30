@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Popular Banco</title>
+    <link rel="stylesheet" href="criaProdutosCSS.css">
+</head>
+<body class="criaBody">
+    <div class="container">
+        <h1>Popular Banco de Dados</h1>
+
+        <div class="form">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="text" id="email" placeholder="Descrição">
+            <input type="text" id="marca_pecas" placeholder="Marca Peças">
+            <input type="text" id="marca_veiculos" placeholder="Marca Veículos">
+            <input type="text" id="tipo" placeholder="Tipo">
+            <div id="aplica" class="form">
+            </div>
+            <button onclick="adicionarAplicacoes()">Adicionar Aplicaçoes</button>
+            <button id="remover" class="remover" onclick="removeAplicacoes()">Remover Aplicaçoes</button>
+            <button onclick="criarUsuario()">Adicionar</button>
+    </div>
+
+    <script src="criaProdutosJS.js"></script>
+</body>
+</html>
