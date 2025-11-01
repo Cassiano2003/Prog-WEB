@@ -1,0 +1,200 @@
+body{
+    background-color: #4b7aeb;
+}
+
+/* Lugar onde fica a logo da empresa.*/
+.topo-logo{
+    width: 100%;
+    height: auto;
+    background:radial-gradient(circle,#ff5b5b, #910054);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Lugar onde fica os botoes de funcionalidades do catalogo.*/
+.topo-botao{
+    background: #720303;
+    color: white;
+    padding: 5px 20px;
+    gap: 10px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+/* Estilo do botao*/
+.botao-topo{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.botao-topo:hover {
+    background: #8d0303;
+    color: rgb(255, 255, 255);
+}
+
+/* Colunas */
+.colunas{
+    display: flex;
+    margin-top: 2vh;
+    font-size: 17px;
+}
+
+/* Seção da empresa */
+.info-empresa{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 30%;  
+    border-radius: 20px;
+    z-index: 2; 
+    margin-left: 2vh;
+}
+
+.info-empresa p{
+    margin-left: 13px;
+    font-size: 3.5vh;
+}
+
+.info-empresa footer{
+    margin-top: 75vh;
+}
+
+/* Seção das peças */
+.info-pecas{
+    display: flex; 
+    flex-direction: column; 
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    flex: 1 1 28%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+
+.info-pecas p {
+    color: white;
+    line-height: 1.3;
+    margin-top: 22vh;
+    font-size: 3.5vh;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.info-pecas-imagens{ 
+    flex-direction: column; 
+    background-color: rgba(0, 0, 0, 0.6);
+    flex: 1 0 25%;
+    margin-left: -15px;
+    z-index: 2;
+    padding: 20px;
+}
+
+.info-pecas-imagens-volante{
+    padding: 20px;
+    gap: 5vh;
+    margin-top: -20vh;
+}
+
+.info-pecas-imagens-bustrator{
+    padding: 20px;
+    gap: 5vh;
+    margin-top: 15vh;
+}
+
+.info-pecas-imagens img{
+    width: 51vh;
+}
+
+/* Rodapé */
+.tela-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #ff5b5b, #910054);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;       
+    bottom: 0;        
+    left: 0;
+    right: 0;
+    top: 20px;
+    box-sizing: border-box;;
+}
+
+.tela-footer p{
+    font-size: 18px;
+}
+
+/* Imagens laterais */
+.tela-footer-esquerda, .tela-footer-direita {
+    width: 50vh; 
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/* Responsividade para Tabletes e Celulares */
+/* Tablets */
+@media (max-width: 900px) {
+    .botao-topo {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    .info-pecas p {
+        font-size: 2vh;
+    }
+
+    .info-empresa img, .info-pecas img {
+        width: 90px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .topo-logo img {
+        max-width: 100px;
+    }
+
+    .botao-topo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .colunas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-empresa, .info-pecas {
+        flex-direction: column;     
+        text-align: center;
+    }
+
+    .info-empresa img,
+    .info-pecas img {
+        margin-bottom: 10px;
+    }
+
+    .tela-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 60px;
+    }
+}
