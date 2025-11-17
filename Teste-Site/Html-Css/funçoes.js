@@ -1,13 +1,17 @@
 document.getElementById("produtos").addEventListener("click", () => {
-    carregarPagina("criaProdutos.html");
+    carregarPagina("produtos.html");
+});
+
+document.getElementById("servicos").addEventListener("click", () => {
+    carregarPagina("servicos.html");
 });
 
 document.getElementById("sobre_nos").addEventListener("click", () => {
-    carregarPagina("verProdutos.html"); // se quiser voltar para um conteúdo inicial
+    carregarPagina("sobre_nos.html"); 
 });
 
 document.getElementById("inicio").addEventListener("click", () => {
-    carregarPagina("catalogo.html"); // se quiser voltar para um conteúdo inicial
+    carregarPagina("colunas.html"); 
 });
 
 
@@ -33,4 +37,4 @@ function carregarPagina(pagina) {
     }*/
 }
 
-carregarPagina("catalogo.html");
+carregarPagina("colunas.html");
