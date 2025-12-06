@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <title>Produtos</title>
     <link rel="stylesheet" href="produtos.css">
+
+    <!-- Importante: o defer garante que o JS só rode depois do HTML completo -->
+    <script src="info_filtro.js" defer></script>
 </head>
 <body>
     <div class="colunas">
+        <!-- Coluna de filtros -->
         <div class="coluna1">
             <h1>Filtro</h1>
 
@@ -14,21 +18,20 @@
                 <div class="select-completo">
                     <input id="filtro1" list="opcoes1" placeholder="Carro" class="campo-opcoes">
                     <datalist id="opcoes1">
-                        <option value="Opção A">
-                        <option value="Opção B">
-                        <option value="Opção C">
-                        <option value="Opção D">
+                        <option value="Plato">
+                        <option value="Disco">
+                        <option value="Embreagem">
+                        <option value="Outros">
                     </datalist>
                     <span class="seta">&#9662;</span>
                 </div>
 
                 <div class="select-completo">
-                    <input id="filtro2" list="opcoes2" placeholder="Marca do veiculo" class="campo-opcoes">
+                    <input id="filtro2" list="opcoes2" placeholder="Marca do Veículo" class="campo-opcoes">
                     <datalist id="opcoes2">
-                        <option value="Opção A">
-                        <option value="Opção B">
-                        <option value="Opção C">
-                        <option value="Opção D">
+                        <option value="Fiat">
+                        <option value="Chevrolet">
+                        <option value="Volkswagen">
                     </datalist>
                     <span class="seta">&#9662;</span>
                 </div>
@@ -36,10 +39,9 @@
                 <div class="select-completo">
                     <input id="filtro3" list="opcoes3" placeholder="Aplicação" class="campo-opcoes">
                     <datalist id="opcoes3">
-                        <option value="Opção A">
-                        <option value="Opção B">
-                        <option value="Opção C">
-                        <option value="Opção D">
+                        <option value="Veículos leves">
+                        <option value="Caminhonetes">
+                        <option value="Carros de passeio">
                     </datalist>
                     <span class="seta">&#9662;</span>
                 </div>
@@ -47,41 +49,64 @@
                 <div class="select-completo">
                     <input id="filtro4" list="opcoes4" placeholder="Marca da Peça" class="campo-opcoes">
                     <datalist id="opcoes4">
-                        <option value="Opção A">
-                        <option value="Opção B">
-                        <option value="Opção C">
-                        <option value="Opção D">
+                        <option value="Sachs">
+                        <option value="Luk">
+                        <option value="Valeo">
                     </datalist>
                     <span class="seta">&#9662;</span>
                 </div>
 
                 <div class="select-completo">
-                    <input id="filtro5" list="opcoes5" placeholder="Pesquisa" class="campo-opcoes">
+                    <input id="filtro5" list="opcoes5" placeholder="Tipo" class="campo-opcoes">
                     <datalist id="opcoes5">
-                        <option value="Opção A">
-                        <option value="Opção B">
-                        <option value="Opção C">
-                        <option value="Opção D">
+                        <option value="Plato">
+                        <option value="Disco">
+                        <option value="Rolamento">
                     </datalist>
                     <span class="seta">&#9662;</span>
                 </div>
             </div>
 
             <footer>
-                <img src="https://raw.githubusercontent.com/K-Stachelski/Imagens-Rolpladis/Godot-1/CaminhãoVetorPNG.png" alt="imagem de um caminhao" width="300">
+                <img src="https://raw.githubusercontent.com/K-Stachelski/Imagens-Rolpladis/Godot-1/CaminhãoVetorPNG.png" 
+                     alt="imagem de um caminhão" width="400">
             </footer>   
         </div>
 
+        <!-- Coluna de informações -->
         <div class="coluna2">
-            <div class="coluna-filtro">
-
+            
+            <!-- Caixa geral com lista de peças -->
+            <div class="caixa-lista-produtos" id="listaPecas">
+                <h2>Informações Gerais</h2>
+                <p id="info-geral">Selecione uma opção para ver as informações.</p>
             </div>
-            <div class="coluna-filtro2">
 
+            <!-- Caixa detalhada da peça -->
+            <div class="caixa-detalhes" id="detalhesPeca">
+                <div class="linha">
+                    <h3>INFORMAÇÃO DA PEÇA</h3>
+                </div>
+
+                <div class="linha">
+                    <div class="linha nome-descricao">
+                        <div class="col nome">NOME</div>
+                        <div class="col-desc" id="descricao">DESCRIÇÃO</div>
+                    </div>
+                    <div class="col imagem">IMAGEM</div>
+                </div>
+
+                <div class="linha">
+                    <div class="col">APLICAÇÃO</div>
+                    <div class="col">MODELO</div>
+                </div>
+
+                <div class="linha">
+                    <div class="col">MARCA VEÍCULO</div>
+                    <div class="col">MARCA PEÇA</div>
+                </div>
             </div>
         </div>
-    </div>  
-    <script src="info_filtro.js"></script>
-  
+    </div>
 </body>
 </html>
