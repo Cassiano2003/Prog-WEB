@@ -25,3 +25,18 @@ ul{
 .corpo{
     padding: 20px;
 }
+
+h2{
+    display: flex;  
+    justify-content:flex-start;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.quadrado-pequeno {
+    width: 20px;       /* Define a largura do quadrado */
+    height: 20px;      /* Define a altura, igual à largura para ser um quadrado */
+    background-color: #0062ff; /* Adiciona uma cor de fundo (vermelho) para visibilidade */
+    border: 1px solid black; /* Opcional: Adiciona uma borda */
+}
