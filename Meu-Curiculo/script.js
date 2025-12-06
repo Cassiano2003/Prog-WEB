@@ -1,7 +1,3 @@
-document.getElementById("toggle").onclick = () => {
-    document.body.classList.toggle("dark");
-};
-
 function toggleDarkMode() {
     document.body.classList.toggle("dark");
     var button = document.getElementById("Dark");
