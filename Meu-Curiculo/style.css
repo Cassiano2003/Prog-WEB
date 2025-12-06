@@ -81,13 +81,13 @@ header{
     width: 150px;
 }
 
+.corpo{
+    padding: 20px;
+}
+
 .textos{
     list-style: none;
     gap: 10px;
-}
-
-.corpo{
-    padding: 20px;
 }
 
 h2{
@@ -113,4 +113,33 @@ hr{
     height: 20px;
     background-color: var(--circulo);
     border: 1px solid var(--borda-foto);
+}
+
+
+/* 🔥 MODO RESPONSIVO */
+@media (max-width: 800px) {
+
+    .cabecalho {
+        flex-direction: column; /* 👉 foto e nome ficam em cima/embaixo */
+        text-align: center;
+    }
+
+    .informacoes {
+        flex-direction: column; /* 👉 listas não ficam lado a lado */
+        align-items: center;
+    }
+
+    .basico {
+        text-align: center;
+    }
+
+    .foto {
+        width: 120px;
+        height: 120px;
+        border-width: 6px;
+    }
+
+    .imagen {
+        width: 120px;
+    }
 }
