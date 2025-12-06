@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Verificador de Coordenadas</title>
+<style>
+    body {
+        background: #121212;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        background: #1f1f1f;
+        padding: 20px;
+        border-radius: 10px;
+        width: 350px;
+        box-shadow: 0 0 10px #000;
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+    }
+    button {
+        width: 100%;
+        margin-top: 15px;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        background: #4CAF50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #45a049;
+    }
+    .resultado {
+        margin-top: 20px;
+        padding: 10px;
+        background: #222;
+        border-radius: 5px;
+        white-space: pre-line;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Verificador de Coordenadas</h2>
+
+    <label for="x">Digite X:</label>
+    <input type="number" id="x">
+
+    <label for="z">Digite Z:</label>
+    <input type="number" id="z">
+
+    <button onclick="calcular()">Verificar</button>
+
+    <div class="resultado" id="resultado"></div>
+</div>
+
+<script>
+function calcular() {
+    const x = Number(document.getElementById("x").value);
+    const z = Number(document.getElementById("z").value);
+
+    // Se X ou Z forem 0 → para o programa (igual seu while)
+    if (x === 0 || z === 0) {
+        document.getElementById("resultado").innerText =
+            "As coordenadas não podem ser zero.";
+        return;
+    }
+
+    let saida = "";
+
+    if (x % 8 === 0) {
+        saida += "X = " + (x / 8) + "\n";
+    } else {
+        saida += "A coordenada X não é divisivel por 8\n";
+    }
+
+    if (z % 8 === 0) {
+        saida += "Z = " + (z / 8) + "\n";
+    } else {
+        saida += "A coordenada Z não é divisivel por 8\n";
+    }
+
+    document.getElementById("resultado").innerText = saida;
+}
+</script>
+
+</body>
+</html>
