@@ -117,7 +117,7 @@ hr{
 
 
 /* 🔥 MODO RESPONSIVO */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     .cabecalho {
         flex-direction: column; /* 👉 foto e nome ficam em cima/embaixo */
