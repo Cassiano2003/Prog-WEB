@@ -1,25 +1,88 @@
+:root {
+    --bg: #ffffff;
+    --text: #000000;
+    --borda-foto: #110b0a;
+    --linha: #d181f3;
+    --circulo: #d181f3;
+}
+
+.dark {
+    --bg: #121212;
+    --text: #ffffff;
+    --borda-foto: #ffffff;
+    --linha: #bb86fc;
+    --circulo: #bb86fc;
+}
+
 body{
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.botao{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid var(--text);
+    color: var(--text);
+    border-radius: 50px;
+}
+
+.cabecalho{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .informacoes{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
 }
 
-.informacoes ul{
+.basico{
     list-style: none;
+    padding-left: 0px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 10px solid var(--borda-foto);
 }
 
 .imagen{
-
-    width: 300px;
+    width: 150px;
 }
 
-ul{
+.textos{
     list-style: none;
-    padding-left: 0px;
+    gap: 10px;
 }
 
 .corpo{
@@ -34,9 +97,19 @@ h2{
     flex-direction: row;
 }
 
-.quadrado-pequeno {
-    width: 20px;       /* Define a largura do quadrado */
-    height: 20px;      /* Define a altura, igual à largura para ser um quadrado */
-    background-color: #0062ff; /* Adiciona uma cor de fundo (vermelho) para visibilidade */
-    border: 1px solid black; /* Opcional: Adiciona uma borda */
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--linha);
+    border: none;
+}
+
+.circulo-pequeno {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--circulo);
+    border: 1px solid var(--borda-foto);
 }
